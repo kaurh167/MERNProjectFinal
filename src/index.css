@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#carousel{
+  max-height: 600px;
+}
+
+#imgcard{
+  height: 250px;
+  object-fit: fill;
+}
+
+.form-label{
+  color:white !important;
+}
+.carousel-caption {
+  bottom: 12.25rem !important;
+}
+#cardhover {
+  transition: transform .2s;
+  
+  
+}
+
+#cardhover :hover{
+  transform: scale(1.05);
+}
